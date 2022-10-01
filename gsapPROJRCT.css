@@ -1,0 +1,795 @@
+#font face{
+    font-family: copper;
+    src: url();
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    /* height: 100vh; */
+    width: 100vw;
+    
+}
+
+#part1{
+    overflow: hidden;
+    font-family: ooperLtBTWXX-Light;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999999;
+    background-color: white;
+}
+#main-nav h1{
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+#nav-right-text a{
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+
+#part1 h1{
+    font-size: 60px;
+    font-family:CooperLtBTWXX-Light;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+
+#part1 h1::after{
+    content: "";
+    height: 16px;
+    width: 242px;
+    /* background-color: rgb(0, 0, 0); */
+    background-image:url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#contact img{
+    align-items: center;
+    justify-content: center;
+   height: 40px;
+   transform: rotate(90deg);
+   margin-left: 3px;
+   z-index: 99;
+}
+
+#contact{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+  position: relative;
+    overflow: hidden;
+    /* z-index: 999; */
+}
+
+
+#contact h3{
+    display: flex;
+    font-weight: 100;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999;
+    overflow: hidden;
+}
+#nav-right-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contact:hover #green-layer{
+    left: 0%;
+}
+#green-layer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:-100%;
+    top: 0%;
+    transition: 0.5s ease;
+    background-color: rgb(66, 198, 66);
+}
+
+#leftimg{
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    width: 22vw;
+    height: 70vh;
+    /* transition: 2s ease; */
+}
+#leftimg:hover{
+    top: 18%;
+    transition: 0.3s ease;
+}
+#topimg:hover{
+    transition: 0.3s ease;
+    top: 20%;
+}
+#bottomimg:hover{
+    top: 54%;
+    transition: 0.3s ease;
+
+}
+
+#topimg{
+    position: absolute;
+    top: 21%;
+    left: 60%;
+    transform: translate(-50%-50%);
+    height: 30vh;
+    z-index: 9;
+    width: 17vw;
+}
+#bottomimg{
+    position: absolute;
+    top: 55%;
+    left: 73%;
+    transform: translate(-50%-50%);
+    height: 35vh;
+}
+#part2{
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+#part2 h2{
+    margin-top: -20px;
+margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    font-size: 100px;
+    color: rgb(0, 255, 47);
+}
+#part2 h1{
+    position: relative;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+    width: 70%;
+    color: white;
+    text-align: center;
+    font-family:CooperLtBTWXX-Light;
+}
+#part2 h1::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 19%;
+    right: 8.4%;
+    top: 30%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+}
+#part2 a{
+    margin-top: 20px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#img{
+   width: 40px;
+    transform: rotate(180deg);
+    position: relative;
+    z-index: 99999999999;
+    overflow: hidden;
+}
+#hara{
+   top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(66, 198, 66);
+    position: absolute;
+    left: -100%;
+    right: 0%;
+}
+#About-us h3{
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 0px 15px; 
+    border: 1px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    width: 80px;
+}
+#About-us h3:hover #hara{
+    left: 0%;
+    transition: 0.5s ease;
+}
+#find-out{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: gilroy semibold;
+}
+
+#find-out h2 img{
+   height: 35px;
+   transform: rotate(90deg);
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   z-index: 9999999;
+   position: absolute;
+   margin-left: 15px;
+}
+#find-out h2{
+    margin-left: 10px;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+#greeen{
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    background-color: rgb(66, 198, 66);
+}
+#find-out h2:hover #greeen{
+left: 0%;
+transition: 0.5s ease;
+}
+#part3{
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+#part3-left{
+    height: 110vh;
+    width: 50%;
+    display: flex;
+}
+#part3-left-left1{
+    height: 100%;
+    width: 30%;
+}
+#part3-left-right1{
+    height: 100%;
+    width: 70%;
+}
+#part3-left1-topimg{
+    width: 85%;
+    height: 60%; 
+}
+#part3-left1-bottomimg{
+    margin-top: 15%;
+    width: 85%;
+    height: 30%; 
+}
+#part3-left1-bottomimg img{
+    width: 100%;
+    height: 100%; 
+   object-fit: cover;
+}
+#part3-left1-topimg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#part3-left-right-img-top{
+    height: 35%;
+    width: 60%;
+}
+#part3-left-right-img-top img{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#part3-left-right-img-bottm{
+    margin-top: 7%;
+    height: 62%;
+    width: 90%;
+}
+#part3-left-right-img-bottm img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#part3-right{
+    height: 110vh;
+    width: 50%;
+}
+#part3-right h1{
+    font-family:CooperLtBTWXX-Light;
+    margin-top: 28%;
+    font-size: 55px;
+   width: 90%;
+   position: relative;
+}
+#part3-right p{
+    margin-top: 6%;
+    width: 80%;
+    font-weight: 20;
+    font-family: gilroy semibold;
+    line-height: 42px;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+#part3-profile-text{
+    height: 10%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+#part3-profile-text h2{
+    font-size: 25px;
+    color: rgb(51, 207, 51);
+    font-family: gilroy semibold;
+    font-weight: 30;
+}
+#part3-profile-text img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#part3-profile-text a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+#part3-right h1::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 205px;
+    top: 55px;
+    left: 120px;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+
+}
+#part4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#part4 h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: CooperLtBTWXX-Light;
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    text-align: center;
+}
+#part4 h1::before{
+    content: "";
+    height: 62%;
+    top: -5%;
+    width: 18%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    position: absolute;
+    left: 18%;
+}
+#part4-brand-containor{
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+   gap: 75px;
+}
+
+.part4-barand-div{
+    height: 10%;
+    width: 15%;
+    line-height: 50%;
+}
+.part4-barand-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part4 p{
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 18px;
+}
+#part5{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.part5-img{
+    height: 55%;
+    width: 40%;
+    background-color: blue;
+    overflow: hidden;
+    position: relative;
+}
+.part5-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+}
+.part5-img img:hover{
+    scale: 1.2;
+    transform: translate(-50%-50%);
+    top: 50%;
+    left: 50%;
+}
+
+#page5-box{
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    height: 15%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.part5-img h1{
+    z-index: 9999999;
+    font-size: 35px;
+    position: absolute;
+}
+
+
+
+
+
+
+#part6-swiper{
+    height: 95%;
+    width: 95%;
+    position: relative;
+    cursor: grab;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+
+
+#part6{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: 100%; */
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(118, 118, 43);
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+gap: 50px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 12%;
+    object-fit: cover;
+  }
+
+.swiper-slide h1{
+    font-size:45px;
+    width: 80%;
+    font-family: CooperLtBTWXX-Light;
+}
+
+.swiper-slide p{
+    font-size: 25px;
+}
+.swiper-slide span{
+    align-content: center;
+    justify-content: center;
+}
+
+.swiper-wrapper .swiper-slide:nth-child(3) img{
+    height: 12%;
+    width: 6%;
+}
+.swiper-wrapper .swiper-slide:nth-child(4) img{
+    height: 12%;
+    width: 6%;
+}
+
+
+#part7{
+    overflow: hidden;
+    height: 130vh;
+    background-color: 100%;
+    position: relative;
+}
+#img-div-part7{
+    height: 40%;
+    width: 65%;
+    transform: translate(-50%,-50%);
+    top: 15%;
+    left: 50%;
+    position:relative;
+    z-index: 9999999999;
+    background-color: aqua;
+}
+#img-div-part7 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#part7-layer h1{
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family:CooperLtBTWXX-Light;
+    color: white;
+}
+#part7-profile-text{
+    transform: translate(-50%,-50%);
+    background-color: azure;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    height: 20%;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    display: flex;
+}
+#part7-profile-text img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+#part7-profile-text h2{
+    color: white;
+}
+#part7-profile-text a{
+    text-decoration: none;
+    color: white;
+}
+#part7-layer{
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 99999;
+background-color:rgba(0, 0, 0, 0.588);
+}
+#part8{
+    position: absolute;
+    position: absolute;
+    bottom: 0%;
+    height: 105vh;
+    width: 100%;
+    background-color: #000;
+}
+#part8-text-containor{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 50%;
+    display: flex;
+    gap: 30px;
+}
+
+#part8-box1{
+    height: 100%;
+    width: 30%;
+    gap: 60px;
+}
+#part8-box2{
+    margin-left: 30px;
+    height: 100%;
+    width: 15%;
+}
+#part8-box3{
+    height: 100%;
+    width: 15%;
+}
+#part8-box4{
+    height: 100%;
+    width: 15%;
+}
+#part8-box5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    gap: 50px;
+}
+#part8-box1 h1{
+    font-family: CooperLtBTWXX-Light;
+   font-size: 50px;
+   color: white;
+   padding-bottom: 30px;
+   position: relative;
+}
+#part8-box1 h1::before{
+    content: "";
+    height: 46%;
+    top: 40%;
+    width: 57%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    position: absolute;
+    left:-6%;
+}
+#part8-box1 #aboutus2{
+display: flex;
+}
+#part8-box2 h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+#part8-box2 p{
+    margin-top: 11px;
+    font-size: 20px;
+    color: #fff;
+}
+#part8-box2 p:hover{
+    color: rgb(47, 255, 54);
+}
+#part8-box3 p:hover{
+    color: rgb(47, 255, 54);
+}
+#part8-box4 p:hover{
+    color: rgb(47, 255, 54);
+}
+#part8-box3 h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+#part8-box3 p{
+    margin-top: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+#part8-box4 h1{
+    font-size: 25px;
+    padding-bottom: 11px;
+    color: #fff;
+}
+#part8-box4 p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+#part8-box5 img{
+    height: 18%;
+    width: 50%;
+}
+
+#part8-nav-containor{
+    border-top: 3px solid white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    bottom: -5%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#part8-nav-containor h1{
+    font-size: 35px;
+    color: #fff;
+    font-family: CooperLtBTWXX-Light;
+
+}
+#part8-bottom-right-part{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+    width: 60%;
+}
+#part8-bottom-right-part p{
+    font-size: 13px;
+    color: #fff;
+}
+.media{
+    color: #fff;
+    font-size: 25px;
+}
